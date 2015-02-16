@@ -1,0 +1,372 @@
+<body data-spy="scroll" data-target=".navbar">
+  <nav id="nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-collapse collapse">
+        <img src="img/reverselogo.jpg" class=”img-responsive” class="logo" style="float:left">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Work<span
+            class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#work">Work 1</a></li>
+              <li><a href="#work">Work 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" id="home">
+    <div class="row" style="margin-top:90px">
+      <div class="col-xs-6 col-xs-offset-1" id="title">
+        <img src="img/home_title.png" alt="home title" class="img-responsive" style="padding-bottom:100px">
+      </div>
+      <div class="col-xs-5 col-xs-offset-.5" id="circleme">
+        <div class="hidden-xs">
+          <img src="img/aboutme-circle.png" alt="me" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid" id="about">
+  <div class="row">
+    <div class="col-xs-12">
+      <img src="img/about-jen2.png" class="img-responsive center-block">
+    </div>
+</div>
+<div class="row">
+  <div class="col-xs-2 col-xs-offset-1">
+      <img src="img/camera-glyph.png" id="camera">
+    </div>
+    <div class="col-xs-2">
+       <img src="img/otto-glyph.png" id="otto">
+     </div>
+      <div class="col-xs-2">
+      <img src="img/vino-glyph.png" id="vino">
+    </div>
+     <div class="col-xs-2">
+      <img src="img/travel-glyph.png" id="travel">
+    </div>
+     <div class="col-xs-2">
+      <img src="img/menmark-glyph.png" id="fam">  
+      </div> 
+    </div>
+  <div class="row" id="about-content">
+    <div class="col-xs-6 col-md-4">
+      <h2>It all started with a …</h2><p>camera, a T1i DSLR in 2010. I took pictures of my beloved pups, a LOT of them, and found a passion. However, my creative juices really began to open up when I learned Photoshop. And then it began...Next I was curious about websites and learned HTML and CSS. From there it was Javascript and jQuery. A friend asked for search engine optimization help on his website, so I learned that too. And the passion grew.</p>
+    </div> 
+    <div class="col-xs-6 col-md-4">
+      <h2>I’m an administrative</h2><p> worker bee (a good one, but still). You can find me by the coffee maker sharing my knowledge of the best restaurants in town, how to pick a great glass of wine, and oddly enough, any bit of celebrity gossip (put <em>THAT</em> in your back pocket for the next office trivia night). However, when I discovered web development, I found my calling, my next career. Most people are like, umm, random... but nothing has ever made more sense to me.</p>
+    </div> 
+    <div class="col-xs-6 col-md-4">
+      <h2>So with a lot of studying,</h2><p> practicing, and massive amounts of coffee, I feel confident enough to call myself a web developer. To start off this new career, my husband and I have decided to take the pups and move to Charlotte, NC.  Here, I'm excited to bring my unique skew on life, enthusiasm for my work, and never-ending quest for knowledge to my new position in web development.</p>
+    </div> 
+
+    
+  </div>
+</div>
+
+
+  
+
+
+<div class="container-fluid" id="work">
+    <div class="jumbotron-work">
+      <h1>Some Examples of My Recent Work</h1>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <!-- Place the anchor tag here to cover both your caption and image -->
+          <a href="http://www.sharplinestrategies.com/" target="_blank">
+             <div class="img-hover">
+             <div class="hover"><h4>Sharpline Strategies, LLC</h4>
+              <p>Lorem ipsum dolor
+              </p></div>
+              <img src="img/sharpline.png" alt="Sharpline Strategies" class="sharpline">
+            </div>
+          </a>
+          <!-- Anchor tag ends covering both image and caption -->
+        </div>
+      </div>
+        <div class="col-xs-6 col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <!-- Place the anchor tag here to cover both your caption and image -->
+          <a href="#" class="">
+              <div class="img-hover">
+              <div class="hover"><h4>David Saunders, PGA Pro</h4>
+              <p>Lorem ipsum dolor
+              </p></div>
+              <img src="img/saunder.jpg" alt="David Saunders, PGA Pro" class="dave">
+            </div>
+          </a>
+          <!-- Anchor tag ends covering both image and caption -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div class="container-fluid" id="faq">
+        <div class="faq-box">
+          <div class="jumbotron-faq">
+            <h1>Frequently Asked Questions</h1>
+
+            <h1>(Both Personal &amp; Professional)</h1>
+          </div>
+          <div class="row" style="
+          padding-left: 30px;
+          padding-right: 20px;">
+          <h2 class="learn-more">Learn More</h2>
+          <!-- Button trigger modal -->
+          <div class="modal-button">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+              My Resume
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    <iframe id="Resume-JDuvall" src="img/Resume-JDuvall.pdf" style="height:550px; width:565px"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Accordion Code-->
+        <div class="container" style="width:750px">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne"><span class="glyphicon glyphicon-plus"></span>
+                  Where Are You From?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                Good question and one I get asked a lot because of my accent. I grew up mostly in North Carolina, but
+                moved around a lot as a kid. My dad is originally from Wisconsin, so I occassionally have these weird
+                Mid-Western moments in the midst of my Southern-ness.
+                I've lived in Maryland for the past eight years and moved there to be with my boyfriend, now husband. We're
+                currently relocating back to the South because quite frankly, I'm tired of digging my car out
+                of the snow every Winter. I also miss sweet tea. I'm also very excited to be back closer to family.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+                What is Your Professional Background?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              Way back in my youth, I decided that a Psychology major was a good idea. Well, it wasn't a bad idea
+              because I got a bachelor's degree, but it didn't exactly open a lot of professional doors.
+              I worked my way through some administrative jobs after college until my move to Maryland. Once here, I
+              landed a job in the much sought-after Government contracting industry. I started in Procurement, moved
+              over to Proposal Pricing, and finally into Contracts and Operational Finance. I currently hold an active
+              TS/SCI clearance with a full-scope polygraph, should that ever be necessary.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-plus"></span>
+              How Did You End Up in Web Development?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            In all my work with Government contracting, I was surrounded by the brightest minds in IT. Yet, I never
+            considered myself to be the type that could do that kind of work. I had been on the administrative side of
+            things my entire career and expected to be there forever.
+            As a hobby, I picked up photography and quickly learned Photoshop and other editing programs. It was
+            suggested to me that I might be good at design - and from there my journey began.
+            I took design classes, typography classes, advanced Photoshop classes. It wasn't until I stumbled on an
+            HTML class that I found my true passion.
+            While I like design, I found that I love building. The life-long student in me has continued to learn all
+            things web development-related in order to become a well-rounded and knowledgable member of a great
+            development team.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+            aria-expanded="false" aria-controls="collapseFour"><span class="glyphicon glyphicon-plus"></span>
+            What is Your Design Process?
+          </a>
+        </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="panel-body">
+          First and foremost, I need to understand what needs to be presented. I like to whittle the information
+          down to it's smallest parts so I can envision it in little blocks. From there I can expand the blocks as
+          needed, or even remove blocks if they don't belong. Once the information piece is complete, then the
+          design can take place. I like to start with the most important element and work my way down (or around, or
+          sideways, who knows...). I love photography and if the design warrants it, I like to incorporate it
+          somehow. I prefer clean designs, but of
+          course, the client always comes first and their wish is my command.
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4">
+				<div id="map-canvas" style="height:250px; width:300px; margin-top:20px">
+				</div>
+				</div>
+					<div class="row">
+					<div class="col-xs-3" id="info">
+						<h3>Jen Duvall<br>
+							7854 Mayfair Circle<br>
+							Ellicott City</h3>
+							<h3>Email:<br> 
+								jduvall330@gmail.com</h3>
+								<h3>Phone No.<br>
+									(443)745-6025</h3>
+								</div>
+							<div class="col-xs-5" id="contact-form">
+								<h1>Get In Touch!</h1>
+
+								<%= flash[:notice] %>
+
+								<%= form_tag("/static_pages/thank_you") do %>
+								<div class="col-md-4">
+									<div class="form-group">
+										<%= label_tag :name, "Name" %>
+										<%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name" %>
+									</div>		
+									<div class="form-group">
+										<%= label_tag :email, "Email Address" %>
+										<%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email" %>
+									</div>
+									<div class="form-group">
+										<%= label_tag :message, "Message" %>
+										<%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
+									</div>	
+									<%= submit_tag "Send" %>	
+								</div> 
+								<% end %>
+							</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+      <div class="container-fluid" id="blog">
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="img/blog.png" alt="blog title" class="img-responsive center-block">
+          </div>
+          <div class=row>
+            <div class="col-md-6 col-md-offset-3">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script type="text/JavaScript">
+      var $root = $('html, body');
+      $('.navbar-nav a').click(function () {
+        var href = $.attr(this, 'href');
+        $root.animate({
+          scrollTop: $(href).offset().top
+        }, 500, function () {
+          window.location.hash = href;
+        });
+        return false;
+      });
+      </script>
+
+      <div id="fb-root"></div>
+      <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+
+      <footer>&copy;Jen Duvall 2015
+        <a href="https://twitter.com/jenduvall330" class="twitter-follow-button" data-show-count="false" data-size="large">Follow
+          @jenduvall330</a>
+          <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'twitter-wjs');</script>
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="200" data-layout="button"
+          data-action="like" data-show-faces="false" data-share="true"></div>
+
+          <script>$(".img-hover").hover(function() {
+          	$(this).children("img").fadeTo(200, 0.25)
+          	.end().children(".hover").show();
+          }, function() {
+          	$(this).children("img").fadeTo(200, 1)
+          	.end().children(".hover").hide();
+          });
+          </script> 
+
+
+        </footer>
+
+
+        <!-- /container -->
+
+
+<!--
+  ================================================== -->
+  <!-- Can place script tags with JavaScript files here -->
+
+
+</body>
