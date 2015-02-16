@@ -321,5 +321,7 @@ footer {
 	padding-top: 5px;
 	margin: 5px;
 }
-
+td {
+	padding: 10px;
+}
 
