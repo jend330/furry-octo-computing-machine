@@ -296,6 +296,15 @@
 
 
       <div class="container-fluid" id="blog">
+        <% if user_signed_in? %>
+        <li>
+          <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+        </li>
+        <% else %>
+        <li>
+          <%= link_to('Login', new_user_session_path)  %>  
+        </li>
+        <% end %>
         <div class="row">
           <div class="col-xs-12">
             <img src="img/blog.png" alt="blog title" class="img-responsive center-block">
