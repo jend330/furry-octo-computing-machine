@@ -20,21 +20,6 @@ $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
   })
 
-
-$(document).ready(function(){
-	//all your code goes in here
-	$("textarea").on("keyup", function() {
-		var charCount = $("textarea").val().length;
-		console.log("charCount");
-	$("#charCount").html(charCount);
-	if (charCount > 50) {
-		$("#charCount").css("color", "red");
-	} else {
-		$("#charCount").css("color", "black");
-	};
-})
-}); 
-
 var map;
 function initialize() {
   var mapOptions = {
@@ -47,29 +32,7 @@ function initialize() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-$('.customCarousel').carousel({
-     interval: 4000
- });
 
- // handles the carousel thumbnails
- $('[id^=carousel-selector]').click(function () {
-     var id_selector = $(this).attr("id");
-     var id = id_selector.substr(id_selector.length - 1);
-     id = parseInt(id);
-     var parent = $(this).closest('ul').data('carousel');
-     $('#myCarousel' + parent).carousel(id);
-     $('[id^=carousel-selector' + parent +'-]').removeClass('selected');
-     $(this).addClass('selected');
- });
-
- // when the carousel slides, auto update
- $('.customCarousel').on('slid', function (e) {
-     var cont = $(this).data('carousel');
-     var id = $('#myCarousel'+ cont +' .item.active').data('slide-number');
-     id = parseInt(id);
-     $('[id^=carousel-selector' +cont+'-]').removeClass('selected');
-     $('[id^=carousel-selector'+cont+'-' + id + ']').addClass('selected');
- });
 
 
 
