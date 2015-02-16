@@ -319,7 +319,7 @@ iframe {
 }
 /*Footer*/
 footer {
-	font-family: Oswald; Arial; sans-serif;
+	font-family: Oswald, Arial, sans-serif;
 	font-size: 23px;
 	text-transform: uppercase;
 	background-color: black;
