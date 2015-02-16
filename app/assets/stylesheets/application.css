@@ -34,7 +34,7 @@ p {
 	font-family: Lora, Georgia, serif;
 }
 /*Body*/
-./img-responsive {
+.img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
@@ -204,7 +204,7 @@ a:visited {
 	font-family: Special Elite, Georgia, serif;
 	font-weight: bold;
 }
-./img-hover .hover { 
+.img-hover .hover { 
     display: none;
     position: absolute;
     z-index: 2;
