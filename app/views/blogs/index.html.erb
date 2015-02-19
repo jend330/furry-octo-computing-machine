@@ -1,7 +1,8 @@
 <p id="notice"><%= notice %></p>
-<div class="container">
-<h1>Listing Blogs</h1>
+<div class="container" id="blog-list">
+<h1>Looking Forward: My Blog</h1>
 
+<%= will_paginate @blogs %>
 <table>
   <thead>
     <tr>
@@ -14,6 +15,7 @@
     <% @blogs.each do |blog| %>
       <tr>
         <td><%= blog.description %></td>
+        <td><%= time_ago_in_words(blog.created_at) %></td>
         <td><%= link_to 'Show', blog %></td>
         <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
         <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -21,6 +23,7 @@
     <% end %>
   </tbody>
 </table>
+<%= will_paginate @blogs %>
 
 <br>
 

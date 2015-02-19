@@ -292,15 +292,8 @@ button {
 	text-align: center;
 	font-size: 3em;
 }
-iframe {
-	margin-right: auto;
-	margin-left: auto;
-}
-@media (max-width 768px){
-	#iframe {
-	max-width: 100%;
-	height: auto;
-	}
+#blog-list {
+	background-color: #A1B2B0;
 }
 /*Footer*/
 footer {

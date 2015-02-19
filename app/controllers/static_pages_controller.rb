@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def index
+     @blogs = Blog.all
   end
   def thank_you
   @name = params[:name]
@@ -10,4 +11,6 @@ class StaticPagesController < ApplicationController
 	  	:subject => "A new contact form message from #{@name}", 
 	  	:body => @message).deliver
 end
+
+   
 end
