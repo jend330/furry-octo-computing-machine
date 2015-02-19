@@ -31,12 +31,12 @@
     <strong>Comment:</strong>
     <%= comment.body %>
   </p>
+  <%= link_to 'Destroy Comment', [comment.blog, comment],
+	method: :delete,
+	data: { confirm: 'Are you sure?' } %> 
 <% end %>
 
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> 
-<%= link_to 'Destroy Comment', [comment.blog, comment],
-	method: :delete,
-	data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Back', blogs_path %>
 </div>
